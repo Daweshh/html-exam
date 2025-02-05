@@ -1,3 +1,5 @@
-alert("test")
+const footer = document.querySelector("footer");
 
-console.log("test2")
+footer.addEventListener("click", () => {
+    alert("clarisse la goat");
+});
